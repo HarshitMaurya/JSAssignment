@@ -1,0 +1,110 @@
+html{
+	color: white;
+	user-select: none;
+
+}
+header{
+	position: relative;
+	text-align: center;
+	height: 35vh;
+}
+
+ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 0px;
+	cursor: default;
+}
+
+li{
+	padding: 5px;
+	margin: 5px;
+}
+
+
+#loadhere{
+	border: 1px solid red;
+	position: relative;
+	height:65vh;
+	width:100%;
+}
+
+
+
+
+@media only screen and (orientation: landscape) {
+
+header{
+	height:8vh;
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	padding:0.5vh;
+	text-align: center;
+	cursor: default;
+}
+
+li{
+	position: relative;
+	margin:auto;
+	font-size: 2vw;
+}
+
+#loadhere{
+	border: 1px solid red;
+	position: relative;
+	height:85vh;
+	width:100%;
+}
+
+}
+
+
+body{
+	background-color:black;
+}
+
+/*.contact{
+	width:100%;
+	margin-bottom: 2%;
+}
+
+.contact a img{
+	width:50px;
+	height:50px;
+	margin:5px;
+	transition: width 1s;
+	transition: height 1s;
+}
+.contact a img:hover{
+	width:75px;
+	height: 75px;
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+}
+
+.head2{
+	height: 50px;
+	background-color: aquamarine;
+	margin:2.5px;
+	text-align: center;
+	color: #881111;
+	font-size: 2em;
+}
+
+footer{
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	background-color: #eee;
+	border-top: 2px solid #ddd;
+	text-align: center;
+}
+*/
