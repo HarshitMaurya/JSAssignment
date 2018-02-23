@@ -1,3 +1,7 @@
+body{
+	background-color:#000;
+}
+
 html{
 	color: white;
 	user-select: none;
@@ -25,13 +29,25 @@ li{
 
 
 #loadhere{
-	border: 1px solid red;
 	position: relative;
 	height:65vh;
 	width:100%;
+	text-align: center;
 }
 
+.dp{
+	position: relative;
+	border-radius: 10%;
+	height: 30%;
+	box-shadow: 0px 0px 10px 2px #666;
+}
 
+.aboutme{
+	position: relative;
+	width: 90%;
+	padding:5%;
+	text-align:justify;
+}
 
 
 @media only screen and (orientation: landscape) {
@@ -49,26 +65,35 @@ ul{
 }
 
 li{
+	display: block;
 	position: relative;
 	margin:auto;
 	font-size: 2vw;
+	transition: background-color 0.3s;
 }
 
+li:hover{
+	background-color: grey;
+}
+
+
 #loadhere{
-	border: 1px solid red;
 	position: relative;
 	height:85vh;
 	width:100%;
+	overflow: hidden;
+}
+
+.dp{
+	position: relative;
+	border-radius: 10%;
+	height: 40%;
 }
 
 }
 
 
-body{
-	background-color:black;
-}
-
-/*.contact{
+.contact{
 	width:100%;
 	margin-bottom: 2%;
 }
@@ -89,22 +114,3 @@ body{
 	display: flex;
 	justify-content: center;
 }
-
-.head2{
-	height: 50px;
-	background-color: aquamarine;
-	margin:2.5px;
-	text-align: center;
-	color: #881111;
-	font-size: 2em;
-}
-
-footer{
-	position: relative;
-	bottom: 0px;
-	width: 100%;
-	background-color: #eee;
-	border-top: 2px solid #ddd;
-	text-align: center;
-}
-*/
